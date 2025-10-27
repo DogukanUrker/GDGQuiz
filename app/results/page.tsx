@@ -136,7 +136,7 @@ export default function ResultsPage() {
         </CardContent>
       </Card>
       <footer className="text-center text-gray-500 mt-8 flex items-center justify-center gap-2">
-        <img src="/gdg-logo.png" alt="GDG Quiz" className="w-10 h-10" />
+        <img src="/gdg-logo.png" alt="GDG Logo" className="w-10" />
         <p className="text-md ">
               Built by<a href="https://github.com/DogukanUrker/GDGQuiz" target="_blank" className="text-blue-600 hover:text-blue-700 font-bold"> Software Team</a>
         </p>
