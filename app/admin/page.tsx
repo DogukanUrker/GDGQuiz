@@ -270,11 +270,17 @@ export default function AdminPage() {
                               </div>
                             </div>
                           ) : index === 1 ? (
-                            <div className="text-2xl font-bold text-gray-600">2</div>
+                            <div className="text-2xl font-bold text-gray-600">
+                              2
+                            </div>
                           ) : index === 2 ? (
-                            <div className="text-2xl font-bold text-gray-600">3</div>
+                            <div className="text-2xl font-bold text-gray-600">
+                              3
+                            </div>
                           ) : (
-                            <div className="text-xl text-gray-600">{index + 1}</div>
+                            <div className="text-xl text-gray-600">
+                              {index + 1}
+                            </div>
                           )}
                         </TableCell>
                         <TableCell className="font-bold text-blue-900">
@@ -299,7 +305,9 @@ export default function AdminPage() {
                           <Button
                             variant="ghost"
                             size="icon"
-                            onClick={() => handleRemoveParticipant(participant._id)}
+                            onClick={() =>
+                              handleRemoveParticipant(participant._id)
+                            }
                             className="hover:bg-red-100 hover:text-red-600 transition-colors p-2"
                           >
                             <Trash2 className="h-5 w-5" />
