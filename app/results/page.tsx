@@ -138,7 +138,7 @@ export default function ResultsPage() {
       <footer className="text-center text-gray-500 mt-8 flex items-center justify-center gap-2">
       <Image 
         src="/gdg-logo.png" 
-        alt="GDG Quiz" 
+        alt="GDG Logo" 
         width={40} 
         height={40} 
       />
