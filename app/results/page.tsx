@@ -5,6 +5,8 @@ import { useRouter } from "next/navigation";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Award, CheckCircle, XCircle } from "lucide-react";
 import { Progress } from "@/components/ui/progress";
+import Image from "next/image";
+
 
 interface QuizResults {
   nickname: string;
